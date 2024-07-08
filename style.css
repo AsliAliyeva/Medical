@@ -1,0 +1,33 @@
+:root { --mavi: #6bc2f1 }
+header { background: url('img/headerbg.jpg') 55% 50%/cover; }
+h4 {text-align: center;}
+.text-mavi { color: var(--mavi) }
+.border-mavi { border-color: var(--mavi) }
+.bg-mavi { background-color: var(--mavi) }
+.bg-goy { background-color: #072035 }
+.vh-50 { height: 50vh;}
+
+#f1 { background: url('img/f1.jpg') center/cover }
+#f2 { background: url('img/f2.jpg') center/cover }
+
+#f1:hover, #f2:hover { opacity: .6;}
+#f1:hover h4, #f2:hover h4 { display: initial!important;}
+
+
+.mini-logo {width: 50px; height: 50px; object-fit: contain; margin: auto;}
+.imgmedical { max-height: 250px; max-width: 300px;}
+.caruselBg {    height: 60vh;}
+.carousel-indicators [data-bs-target] {
+    text-indent: initial !important;
+    height: initial !important;
+    width: initial !important;
+    opacity: initial !important;
+    background-color: transparent !important;
+    transition: 1s !important;
+}
+.carousel-indicators [data-bs-target] img {
+    border-radius: 50%;
+    max-width: 60px;
+    max-height: 60px;
+}
+.carousel-indicators .active {scale: 1.3;}
